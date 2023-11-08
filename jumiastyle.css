@@ -1,0 +1,62 @@
+/*Editing header1*/
+
+.header1 ul {
+    display:flex;
+    list-style-type: none;
+    justify-content:space-around;
+}
+
+/*Editing search button*/
+.search-button{
+    background-color: orange;
+    border: none;
+    padding: 5px;
+    color: white;
+}
+/*Editing header2*/
+.header2 ul{
+    background-color: white;
+    display:flex;
+    list-style-type: none;
+    justify-content:space-around;
+    padding: 30px;
+}
+
+/*Editing Left section*/
+.left-section{
+    float: left;
+    width: 30%;
+}
+.left-section ul{
+    background-color: white;
+    list-style-type: none;
+    right: 30%;
+}
+.left-section li:hover{
+    background-color: rgb(190, 190, 190);
+    padding: 8px;
+}
+
+/*Editing right section*/
+.right-section{
+    margin-left:35%;
+    margin-right: 10px;
+    background-color: white;
+}
+
+/*Editing the order lists in the right section*/
+
+.orderlists{
+    display: flex;
+    list-style-type: none;
+    justify-content:flex-start;
+}
+/*Editing the product containers*/
+.items li{
+    list-style-type: none;
+}
+/*Editing the product images*/
+.items img{
+    width: 150px;
+    height: 150px;
+}
