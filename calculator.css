@@ -1,9 +1,4 @@
-body {
-    padding: 0;
-    margin: 0;
-}
-
-.calcDesign{
+.calculatorDesign{
     width: 500px;
     padding-top: 50px;
     padding-bottom: 30px;
@@ -31,7 +26,7 @@ body {
     color: black;
 }
 
-.buttDesign{
+.buttonDesign{
     width: 75px;
     height: 75px;
     padding-top: -1px;
@@ -41,7 +36,7 @@ body {
     margin: 1.5px;
 }
 
-.operatorDesign{
+.operatorSymbol{
     width: 75px;
     height: 75px;
     padding-top: -1px;
@@ -50,15 +45,16 @@ body {
     font-weight: 300;
     margin: 1.5px;
 }
-.operatorDesign:hover{
-    background: wheat;
+.operatorSymbol:hover{
+    background: rgb(141, 194, 224);
 }
 
-#equalbuttDesign{
+#equalSignDesign{
     width: 320px;
     height: 60px;
     border: none;
     font-size: 20px;
     font-weight: 300;
-    background-color: red;
+    background-color: 
+    rgb(255, 60, 0);
 }
