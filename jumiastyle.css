@@ -85,7 +85,7 @@
 
 .open-items li{
     display: flex;
-    border: 1px solid gray;
+    border: 2px solid rgb(173, 173, 173);
     border-radius: 4px;
 }
 .open-items p{
